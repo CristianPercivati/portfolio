@@ -20,10 +20,18 @@
 - Data Visualization
 - Scrapping and automation
 
+### Platforms
+- Azure (Azure Data Studio)
+- Kaggle
+- Databricks
+- Google Colab
+- Streamlit
+
 ### Languages and frameworks
 - Python
 - SQL
 - Pandas and Numpy
+- PySpark and SparkSQL
 - Tensorflow and Pytorch
 - Huggingface libraries
 - FastAPI and Pydantic
