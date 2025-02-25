@@ -1,5 +1,8 @@
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 title: "Portfolio"
 description: "Welcome to my portfolio!"
 logo: "/assets/img/102557818.jpg"
 github: false
+footer:
+  show_on_index: false
+  show_on_pages: false
