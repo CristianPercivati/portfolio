@@ -53,19 +53,49 @@ I also have some knowledge on backend technologies for web and API development:
 ## Notebooks
 
 ### Credit card fraud detection
-![image](/assets/img/banner_credit_card.png)
+[![image](/assets/img/banner_credit_card.png)](https://www.kaggle.com/code/cristianpercivati/detecci-n-de-fraudes-en-tarjetas-de-cr-dito)
+
+*Tipo de problema*: Clasificación binaria 
+
+El objetivo es encontrar un modelo que, dada la información brindada, sea capaz de predecir si una transacción futura será fraudulenta o no. En este análisis lo que hago es el tratamiento de un típico dataset con un problema de **desbalanceo de datos**, donde el **recall** es la métrica más relevante para evaluar la utilidad del modelo que se utilice. 
+
+Pruebo técnicas de **reducción de dimensionalidad**, y de balanceo de datos como resampling o **SMOTE**. Se utiliza una **regresión logística** como modelo viable.
+
 ### IBM attrition analysis
-![image](/assets/img/banner_ibm_attrition.png)
+[![image](/assets/img/banner_ibm_attrition.png)](https://www.kaggle.com/code/cristianpercivati/rotaci-n-de-empleados-de-ibm)
+
+*Tipo de problema*: Clasificación binaria 
+
+La idea del trabajo es explicar las causas del attrition y encontrar algún modelo predictivo que permita interceptar futuros casos de attrition (desgaste que provocan el posible renunciamiento de un empleado) para evitar la **rotación excesiva**. En este análisis también se nos presenta un problema de desbalanceo de datos, pero en este caso es menos permisibile los falsos negativos respecto al ejemplo de fraude de tarjetas, por lo cual se necesitaba mantener un balance de estas métricas. 
+
+Se hizo un EDA de las características, y se seleccionó en función de las correlaciones teniendo en cuenta tests de hipótesis como **chi cuadrado** y dándole importancia a la segmentación de los datos, que nos permitió ver mejores correlaciones y elegir las características útiles en función de la variable objetivo.
+
+Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los resultados del modelo, en este caso se utilizó **XGBoost** dado que las relaciones son poco lineales.
+
 ### Spaceship Titanic Competition
-![image](/assets/img/banner_spaceship_titanic.png)
+[![image](/assets/img/banner_spaceship_titanic.png)](https://www.kaggle.com/code/cristianpercivati/spaceship-titanic-around-80-precision)
+
+*Tipo de problema*: Clasificación binaria 
+
 ### Buenos Aires Properati Price Prediction
-![image](/assets/img/banner_properati.png)
+[![image](/assets/img/banner_properati.png)](https://www.kaggle.com/code/cristianpercivati/buenos-aires-properties-price-prediction)
+
+*Tipo de problema*: Regresión 
+
 ### Twitter dataset NLP analysis
-![image](/assets/img/banner_twitter_analysis.png)
+[![image](/assets/img/banner_twitter_analysis.png)](https://www.kaggle.com/code/cristianpercivati/transformers-on-twitter-dataset)
+
+*Tipo de problema*: Análisis de sentimientos / Clasificación multiclase
+
+Se utiliza un **transformer ROBERTA** para la clasificación de twits de un dataset de Twitter de la India.
+
 ### Uber NY NLP analysis
-![image](/assets/img/banner_uber.png)
+[![image](/assets/img/banner_uber.png)]
+*Tipo de problema*: Análisis de sentimientos / Nube de palabras
+
 ### YOLO object detection
 ![image](/assets/img/banner_yolo.png)
+*Tipo de problema*: Detección de imágenes
 
 ## Apps
 
@@ -81,19 +111,25 @@ I also have some knowledge on backend technologies for web and API development:
   <div style="flex: 1; text-align: center;">
     <h3>Whisper fine-tuned for CMU</h3>
     <img src="./assets/img/model_1.png" alt="Whisper Model" style="width: auto; max-width: 250px;">
-    <p>This model is fine-tuned for the CMU dataset, achieving state-of-the-art performance in speech recognition.</p>
+    <p>Realicé un <b>ajuste fino</b> a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en
+    mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.</p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <h3>Llama 3B fine-tuned for Uber dataset</h3>
     <img src="./assets/img/model_2.png" alt="Llama Model" style="width: auto; max-width: 250px;">
-    <p>This model is trained to predict ride demand and optimize pricing strategies based on the Uber dataset.</p>
+    <p>El ajuste fino (realizado con <b>QLoRA</b>) se utilizó para adaptar la versión de 3B de Llama 3 para que simule
+    ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó
+    comentarios y calificaciones <b>sintéticas</b>.</p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <h3>Deep Reinforcement Learning DQN for transport problems</h3>
     <img src="./assets/img/model_3.png" alt="DQN Model" style="width: auto; max-width: 250px;">
-    <p>This model applies deep reinforcement learning (DQN) to solve transportation optimization problems.</p>
+    <p>Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una
+    DQN utilizando <b>Deep Reinforcement Learning</b> que me permitiera desarrollar un conjunto de <b>datos sintéticos</b>
+    predictivos que demuestren el efecto que puede tener la <b>toma de decisiones simulada</b> sobre la tarifa del servicio
+    y los beneficios de la dinamización de la misma.</p>
   </div>
 
 </div>
