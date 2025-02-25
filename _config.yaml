@@ -1,4 +1,8 @@
 logo: /assets/img/102557818.jpg
 title: [Portfolio]
 description: [Welcome to my portfolio!]
-remote_theme: jekyll-theme-dark-minimal
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark
