@@ -1,5 +1,7 @@
 title: "Portfolio"
-logo: "/assets/img/102557818.jpg"
+#logo: "/assets/img/102557818.jpg"
+author:
+  avatar: "/assets/img/102557818.jpg"
 description: "Welcome to my portfolio!"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
