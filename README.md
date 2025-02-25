@@ -5,6 +5,41 @@
 - Advanced technician diploma in Data Science and AI - IFTS 24
 - Computer Science engineering student - University of Buenos Aires
 
+## Skills
+
+### Global skills
+
+- Data Analysis
+- Model development and testing
+- Models fine-tuning
+- NLP and transformers applications
+- API development
+- MLOps basics
+- OLTP relational databases
+- OLAP reporting
+- Data Visualization
+- Scrapping and automation
+
+### Languages and frameworks
+- Python
+- SQL
+- Pandas and Numpy
+- Tensorflow and Pytorch
+- Huggingface libraries
+- FastAPI and Pydantic
+- Github
+- Github Actions
+- DVC
+- Selenium and Scrapy
+
+I also have some knowledge on backend technologies for web and API development:
+
+- Typescript
+- Node and NextJS
+- MongoDB
+- Sequelize
+- GraphQL
+
 # Projects
 
 ## Notebooks
