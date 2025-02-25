@@ -72,19 +72,19 @@ I also have some knowledge on backend technologies for web and API development:
 
   <div style="flex: 1; text-align: center;">
     <h3>Whisper fine-tuned for CMU</h3>
-    <img src="/assets/img/model_1.png" alt="Whisper Model" style="width: auto; max-width: 250px;">
+    <img src="./assets/img/model_1.png" alt="Whisper Model" style="width: auto; max-width: 250px;">
     <p>This model is fine-tuned for the CMU dataset, achieving state-of-the-art performance in speech recognition.</p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <h3>Llama 3B fine-tuned for Uber dataset</h3>
-    <img src="/assets/img/model_2.png" alt="Llama Model" style="width: auto; max-width: 250px;">
+    <img src="./assets/img/model_2.png" alt="Llama Model" style="width: auto; max-width: 250px;">
     <p>This model is trained to predict ride demand and optimize pricing strategies based on the Uber dataset.</p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <h3>Deep Reinforcement Learning DQN for transport problems</h3>
-    <img src="/assets/img/model_3.png" alt="DQN Model" style="width: auto; max-width: 250px;">
+    <img src="./assets/img/model_3.png" alt="DQN Model" style="width: auto; max-width: 250px;">
     <p>This model applies deep reinforcement learning (DQN) to solve transportation optimization problems.</p>
   </div>
 
