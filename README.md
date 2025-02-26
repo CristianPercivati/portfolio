@@ -90,7 +90,7 @@ Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los 
 Se utiliza un **transformer ROBERTA** para la clasificación de twits de un dataset de Twitter de la India.
 
 ### Uber NY NLP analysis
-[![image](/assets/img/banner_uber.png)]
+[![image](/assets/img/banner_uber.png)]{ width="800" height="120" style="display: block; margin: 0 auto" }
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
@@ -106,33 +106,24 @@ Se utiliza un **transformer ROBERTA** para la clasificación de twits de un data
 
 ## Models
 
-<div style="display: flex; justify-content: space-between; gap: 20px;">
+### Whisper fine-tuned for CMU
+![Whisper Model](./assets/img/model_1.png)
 
-  <div style="flex: 1; text-align: center;">
-    <h3>Whisper fine-tuned for CMU</h3>
-    <img src="./assets/img/model_1.png" alt="Whisper Model" style="width: auto; max-width: 250px;">
-    <p>Realicé un <b>ajuste fino</b> a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en
-    mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.</p>
-  </div>
+Realicé un **ajuste fino** a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.
 
-  <div style="flex: 1; text-align: center;">
-    <h3>Llama 3B fine-tuned for Uber dataset</h3>
-    <img src="./assets/img/model_2.png" alt="Llama Model" style="width: auto; max-width: 250px;">
-    <p>El ajuste fino (realizado con <b>QLoRA</b>) se utilizó para adaptar la versión de 3B de Llama 3 para que simule
-    ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó
-    comentarios y calificaciones <b>sintéticas</b>.</p>
-  </div>
+---
 
-  <div style="flex: 1; text-align: center;">
-    <h3>Deep Reinforcement Learning DQN for transport problems</h3>
-    <img src="./assets/img/model_3.png" alt="DQN Model" style="width: auto; max-width: 250px;">
-    <p>Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una
-    DQN utilizando <b>Deep Reinforcement Learning</b> que me permitiera desarrollar un conjunto de <b>datos sintéticos</b>
-    predictivos que demuestren el efecto que puede tener la <b>toma de decisiones simulada</b> sobre la tarifa del servicio
-    y los beneficios de la dinamización de la misma.</p>
-  </div>
+### Llama 3B fine-tuned for Uber dataset
+![Llama Model](./assets/img/model_2.png)
 
-</div>
+El ajuste fino (realizado con **QLoRA**) se utilizó para adaptar la versión de 3B de Llama 3 para que simule ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó comentarios y calificaciones **sintéticas**.
+
+---
+
+### Deep Reinforcement Learning DQN for transport problems
+![DQN Model](./assets/img/model_3.png)
+
+Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una DQN utilizando **Deep Reinforcement Learning** que me permitiera desarrollar un conjunto de **datos sintéticos** predictivos que demuestren el efecto que puede tener la **toma de decisiones simulada** sobre la tarifa del servicio y los beneficios de la dinamización de la misma.
 
 ## Dashboards
 
