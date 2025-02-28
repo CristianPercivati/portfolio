@@ -127,6 +127,25 @@ Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La
 
 ## Dashboards
 
+### Reporte sobre el mercado de datos
+
+En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
+
+![PBI - Data Jobs](./assets/img/pbi-1.png)
+
+### Ejemplo de Data Warehousing
+
+Este fue un ejercicio realizado para una capacitación en Quales. La idea era aplicar **ETL** con **SQL** para transformar archivos csv sueltos en un **Data Warehouse** listo para ser consumido en PBI.
+
+![PBI - Data Warehousing](./assets/img/pbi-2.png)
+
+### Ejercicio de PBI
+
+Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
+
+![PBI - RRHH Exercise](./assets/img/pbi-3.png)
+
+
 ## Others
 
 ### Personal blog
