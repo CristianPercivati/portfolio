@@ -1,54 +1,22 @@
-# About me
+# Portfolio de prácticas
 
-# Education
+## Apps
 
-- Advanced technician diploma in Data Science and AI - IFTS 24
-- Computer Science engineering student - University of Buenos Aires
+### EstudIA
 
-## Skills
+Esta aplicación fue un proyecto que desarrollé durante una práctica en el Instituto. La app es básicamente un **agente** que ayuda al alumno a entender y a progresar sobre ciertos temas académicos. Básicamente, funciona a través de Langchain para la **recuperación de documentos**, que son vectorizados y almacenados en una **base de datos vectorial** (ChromaDB). Luego, se utiliza un **LLM** (la API de GPT) para que asuma esta documentación como contexto para las preguntas del usuario. En base las respuestas que el usuario va dando, el LLM también almacena un seguimiento de los errores y aciertos del mismo, y toma decisiones sobre qué temas profundizar y ajustar sus preguntas en función a los conocimientos del mismo. También permite realizar resúmenes de los textos vistos.
 
-### Global skills
+### Bot-to-Bot app
 
-- Data Analysis
-- Model development and testing
-- Models fine-tuning
-- NLP and transformers applications
-- API development
-- MLOps basics
-- OLTP relational databases
-- OLAP reporting
-- Data Visualization
-- Scrapping and automation
+Esta aplicación es un sencillo ejercicio de prueba donde se utilizan dos modelos de LLM de competencia actual (GPT y Deepseek) para que interactúen entre sí. Se presentan en un formato de sala de chat, donde el usuario hace un prompt inicial y los chatbots van interactuando entre sí. Dependiendo del prompt inicial, los chats durante el intercambio van dejando entrever los sesgos internos que poseen a la hora de dar respuestas, siendo GPT más enfocado en la privacidad y el individuo, mientras que Deepseek se apoya más en la utilidad social y la importancia de lo colectivo. Este prompt inicial está ajustado internamente con un prompt one-shot para mejorar su precisión y dirigir correctamente el desarrollo de la conversación.
 
-### Platforms
-- Azure (Azure Data Studio)
-- Kaggle
-- Databricks
-- Google Colab
-- Streamlit
+### Phonetics corrector
 
-### Languages and frameworks
-- Python
-- SQL
-- Pandas and Numpy
-- PySpark and SparkSQL
-- Tensorflow and Pytorch
-- Huggingface libraries
-- FastAPI and Pydantic
-- Github
-- Github Actions
-- DVC
-- Selenium and Scrapy
+Este fue un proyecto personal que tenía como fin explorar las posibilidades de un modelo transcripción de voz de OpenAI que había salido en ese momento, llamado **Whisper**. La idea de la app es buscar diferencias en la pronunciación de las palabras. Para esto, reentrené el modelo con un dataset público de transcipción de audio. El entrenamiento requirió que se convirtieran las etiquetas del dataset a CMU (un diccionario de pronunciación abierto). La app lo que hace es utilizar este modelo reentrenado para realizar una transcripción a CMU, y por el otro utiliza el modelo original para compararlo con la pronunciación real, de esta forma reconoce los fonemas que fueron correcta e incorrectamente pronunciados.
 
-I also have some knowledge on backend technologies for web and API development:
+### DQN applied for transport problems
 
-- Typescript
-- Node and NextJS
-- MongoDB
-- Sequelize
-- GraphQL
-
-# Projects
+Este fue un trabajo de **Deep Reinforcement Learning**. La aplicación demuestra cómo, con muy pocos datos, se pudo realizar un **entorno simulado** a partir de los datos originales, utilizando técnicas de aumento y expansión de datos e inferencia causal resultado del análisis. El objetivo del trabajo fue demostrar un *estimativo* de cómo la toma de decisiones sobre la flexiblización de las tarifas, permitiría un crecimiento mucho mayor en la curva de pronóstico para el año siguiente. Se utilizó una **DQN** que permite el aprendizaje (por refuerzo) de un **agente** (en este caso, la propia empresa) respecto a las decisiones que tome en las tarifas dependiendo del entorno.
 
 ## Notebooks
 
@@ -95,16 +63,12 @@ Se utiliza un **transformer ROBERTA** para la clasificación de twits de un data
 
 ### YOLO object detection
 ![image](/assets/img/banner_yolo.png)
+
+En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de imágenes en tiempo real.
+
 *Tipo de problema*: Detección de imágenes
 
-## Apps
-
-### EstudIA
-### Bot-to-Bot app
-### Phonetics corrector
-### DQN applied for transport problems
-
-## Models
+## Modelos y ajuste fino
 
 ### Whisper fine-tuned for CMU
 ![Whisper Model](./assets/img/model_1.png)
@@ -129,7 +93,7 @@ Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La
 
 ### Reporte sobre el mercado de datos
 
-En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
+Este dashboard fue un proyecto que realicé durante unas prácticas en el Instituto. En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
 
 ![PBI - Data Jobs](./assets/img/pbi-1.png)
 
@@ -144,9 +108,3 @@ Este fue un ejercicio realizado para una capacitación en Quales. La idea era ap
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
 ![PBI - RRHH Exercise](./assets/img/pbi-3.png)
-
-
-## Others
-
-### Personal blog
-### Youtube's channel
