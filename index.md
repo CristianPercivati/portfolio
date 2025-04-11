@@ -6,25 +6,32 @@
 
 Esta aplicación fue un proyecto que desarrollé durante una práctica en el Instituto. La app es básicamente un **agente** que ayuda al alumno a entender y a progresar sobre ciertos temas académicos. Básicamente, funciona a través de Langchain para la **recuperación de documentos**, que son vectorizados y almacenados en una **base de datos vectorial** (ChromaDB). Luego, se utiliza un **LLM** (la API de GPT) para que asuma esta documentación como contexto para las preguntas del usuario. En base las respuestas que el usuario va dando, el LLM también almacena un seguimiento de los errores y aciertos del mismo, y toma decisiones sobre qué temas profundizar y ajustar sus preguntas en función a los conocimientos del mismo. También permite realizar resúmenes de los textos vistos.
 
-Descargar desde Docker 🐳: [APP](https://google.com) [API](https://google.com)
+- [Ver video 👀](https://google.com)
+- [Descargar desde Docker 🐳](https://google.com)
 
 ### Bot-to-Bot app
 
 Esta aplicación es un sencillo ejercicio de prueba donde se utilizan dos modelos de LLM de competencia actual (GPT y Deepseek) para que interactúen entre sí. Se presentan en un formato de sala de chat, donde el usuario hace un prompt inicial y los chatbots van interactuando entre sí. Dependiendo del prompt inicial, los chats durante el intercambio van dejando entrever los sesgos internos que poseen a la hora de dar respuestas, siendo GPT más enfocado en la privacidad y el individuo, mientras que Deepseek se apoya más en la utilidad social y la importancia de lo colectivo. Este prompt inicial está ajustado internamente con un prompt one-shot para mejorar su precisión y dirigir correctamente el desarrollo de la conversación.
 
-Descargar desde Docker 🐳: [APP](https://google.com)
+- [Ver video 👀](https://youtu.be/z35HhIoJ5gY)
+- [Descargar desde Docker 🐳](https://google.com)
 
 ### Phonetics corrector
 
 Este fue un proyecto personal que tenía como fin explorar las posibilidades de un modelo transcripción de voz de OpenAI que había salido en ese momento, llamado **Whisper**. La idea de la app es buscar diferencias en la pronunciación de las palabras. Para esto, reentrené el modelo con un dataset público de transcipción de audio. El entrenamiento requirió que se convirtieran las etiquetas del dataset a CMU (un diccionario de pronunciación abierto). La app lo que hace es utilizar este modelo reentrenado para realizar una transcripción a CMU, y por el otro utiliza el modelo original para compararlo con la pronunciación real, de esta forma reconoce los fonemas que fueron correcta e incorrectamente pronunciados.
 
-Descargar desde Docker 🐳: [APP](https://google.com) [API](https://google.com)
+- [Ver video 👀](https://youtu.be/lnRcwrBtzmY)
+- [Descargar desde Docker 🐳](https://google.com)
+
+
+Enlace a video: :movie_camera:
 
 ### DQN applied for transport problems
 
 Este fue un trabajo de **Deep Reinforcement Learning**. La aplicación demuestra cómo, con muy pocos datos, se pudo realizar un **entorno simulado** a partir de los datos originales, utilizando técnicas de aumento y expansión de datos e inferencia causal resultado del análisis. El objetivo del trabajo fue demostrar un *estimativo* de cómo la toma de decisiones sobre la flexiblización de las tarifas, permitiría un crecimiento mucho mayor en la curva de pronóstico para el año siguiente. Se utilizó una **DQN** que permite el aprendizaje (por refuerzo) de un **agente** (en este caso, la propia empresa) respecto a las decisiones que tome en las tarifas dependiendo del entorno.
 
-Descargar desde Docker 🐳: [APP](https://google.com) [API](https://google.com)
+- [Ver video 👀](https://youtu.be/aYyind5eH5w)
+- [Descargar desde Docker 🐳](https://google.com)
 
 ## Notebooks
 
