@@ -63,6 +63,9 @@ Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los 
 ### Buenos Aires Properati Price Prediction
 [![image](/assets/img/banner_properati.png)](https://www.kaggle.com/code/cristianpercivati/buenos-aires-properties-price-prediction)
 
+Este trabajo es uno de mis primeros notebooks, basado en el clásico problema de regresión de los precios de propiedades, pero esta vez utilizando un dataset de Properati para el análisis descriptivo y predictivo
+de precios de inmuebles de la Ciudad de Buenos Aires.
+
 *Tipo de problema*: Regresión 
 
 ### Twitter dataset NLP analysis
@@ -70,18 +73,25 @@ Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los 
 
 *Tipo de problema*: Análisis de sentimientos / Clasificación multiclase
 
-Se utiliza un **transformer ROBERTA** para la clasificación de twits de un dataset de Twitter de la India.
+Se utiliza el **transformer BERT** para la clasificación de twits de un dataset de Twitter de la India.
 
 ### Uber NY NLP analysis
 [![image](/assets/img/banner_uber.png)]{ width="800" height="120" style="display: block; margin: 0 auto" }
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
-![image](/assets/img/banner_yolo.png)
+![image](/assets/img/banner_yolo.png)(https://www.kaggle.com/code/cristianpercivati/yolo-demo)
 
-En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de imágenes en tiempo real.
+En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de objetos en una imagen.
 
-*Tipo de problema*: Detección de imágenes
+*Tipo de problema*: Detección de objetos en computer vision
+
+### SAM image segmentation
+![image](/assets/img/banner_yolo.png)(https://www.kaggle.com/code/cristianpercivati/sam-demo)
+
+En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
+
+*Tipo de problema*: Segmentación de imágense en computer vision
 
 ## Modelos y ajuste fino
 
