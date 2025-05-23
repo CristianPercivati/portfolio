@@ -87,7 +87,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para l
 *Tipo de problema*: Detección de objetos en computer vision
 
 ### SAM image segmentation
-![image](/assets/img/banner_yolo.png)(https://www.kaggle.com/code/cristianpercivati/sam-demo)
+![image](/assets/img/banner_sam.png)(https://www.kaggle.com/code/cristianpercivati/sam-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
 
