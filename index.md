@@ -58,6 +58,8 @@ Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los 
 ### Spaceship Titanic Competition
 [![image](/assets/img/banner_spaceship_titanic.png)](https://www.kaggle.com/code/cristianpercivati/spaceship-titanic-around-80-precision)
 
+Este fue un trabajo que hice durante la materia de Cs. de Datos en el instituto. Tras un EDA profundo, se logró una buena explicabilidad de la correlación de las variables e **ingeniería de características**. Como modelo, el que mejor resultado dio fue una **red neuronal profunda**, pero para poder explicar los resultados recurrí a un análisis **SHAP**.
+
 *Tipo de problema*: Clasificación binaria 
 
 ### Buenos Aires Properati Price Prediction
@@ -77,6 +79,9 @@ Se utiliza el **transformer BERT** para la clasificación de twits de un dataset
 
 ### Uber NY NLP analysis
 [![image](/assets/img/banner_uber.png)]{ width="800" height="120" style="display: block; margin: 0 auto" }
+
+Este fue el análisis exploratorio previo a desarrollar el modelo que genere comentarios simulando ser un pasajero de un viaje. Se hizo un trabajo de preprocesamiento de NLP básico (**lemmatización** y eliminación de **stop words**) y luego se vectorizó el vocabulario con **CountVectorizer**. Esto me permitió realizar una nube de palabras de las palabras más positivas y más negativas realizadas por los pasajeros.
+
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
