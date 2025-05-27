@@ -99,25 +99,35 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 *Tipo de problema*: Segmentación de imágense en computer vision
 
 ## Modelos y ajuste fino
-
-### Whisper fine-tuned for CMU
-![Whisper Model](./assets/img/model_1.png)
-
-Realicé un **ajuste fino** a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.
-
----
-
-### Llama 3B fine-tuned for Uber dataset
-![Llama Model](./assets/img/model_2.png)
-
-El ajuste fino (realizado con **QLoRA**) se utilizó para adaptar la versión de 3B de Llama 3 para que simule ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó comentarios y calificaciones **sintéticas**.
-
----
-
-### Deep Reinforcement Learning DQN for transport problems
-![DQN Model](./assets/img/model_3.png)
-
-Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una DQN utilizando **Deep Reinforcement Learning** que me permitiera desarrollar un conjunto de **datos sintéticos** predictivos que demuestren el efecto que puede tener la **toma de decisiones simulada** sobre la tarifa del servicio y los beneficios de la dinamización de la misma.
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 150px;">
+      <img src="./assets/img/model_1.png" alt="Whisper Model" width="150"/>
+    </td>
+    <td>
+      <h3>Whisper fine-tuned for CMU</h3>
+      Realicé un <strong>ajuste fino</strong> a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">
+      <img src="./assets/img/model_2.png" alt="Llama Model" width="150"/>
+    </td>
+    <td>
+      <h3>Llama 3B fine-tuned for Uber dataset</h3>
+      El ajuste fino (realizado con <strong>QLoRA</strong>) se utilizó para adaptar la versión de 3B de Llama 3 para que simule ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó comentarios y calificaciones <strong>sintéticas</strong>.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">
+      <img src="./assets/img/model_3.png" alt="DQN Model" width="150"/>
+    </td>
+    <td>
+      <h3>Deep Reinforcement Learning DQN for transport problems</h3>
+      Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una DQN utilizando <strong>Deep Reinforcement Learning</strong> que me permitiera desarrollar un conjunto de <strong>datos sintéticos</strong> predictivos que demuestren el efecto que puede tener la <strong>toma de decisiones simulada</strong> sobre la tarifa del servicio y los beneficios de la dinamización de la misma.
+    </td>
+  </tr>
+</table>
 
 ## Dashboards
 
