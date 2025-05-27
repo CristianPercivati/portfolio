@@ -78,21 +78,21 @@ de precios de inmuebles de la Ciudad de Buenos Aires.
 Se utiliza el **transformer BERT** para la clasificación de twits de un dataset de Twitter de la India.
 
 ### Uber NY NLP analysis
-[![image](/assets/img/banner_uber.png)]{ width="800" height="120" style="display: block; margin: 0 auto" }
+[![image](/assets/img/banner_uber.png)](https://www.kaggle.com/code/cristianpercivati/uber-espa-ol-an-lisis-de-sentimientos)
 
 Este fue el análisis exploratorio previo a desarrollar el modelo que genere comentarios simulando ser un pasajero de un viaje. Se hizo un trabajo de preprocesamiento de NLP básico (**lemmatización** y eliminación de **stop words**) y luego se vectorizó el vocabulario con **CountVectorizer**. Esto me permitió realizar una nube de palabras de las palabras más positivas y más negativas realizadas por los pasajeros.
 
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
-![image](/assets/img/banner_yolo.png)(https://www.kaggle.com/code/cristianpercivati/yolo-demo)
+![image(/assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de objetos en una imagen.
 
 *Tipo de problema*: Detección de objetos en computer vision
 
 ### SAM image segmentation
-![image](/assets/img/banner_sam.png)(https://www.kaggle.com/code/cristianpercivati/sam-demo)
+![image](/assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
 
