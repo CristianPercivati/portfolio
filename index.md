@@ -85,14 +85,14 @@ Este fue el análisis exploratorio previo a desarrollar el modelo que genere com
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
-![image(/assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
+[![image](/assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de objetos en una imagen.
 
 *Tipo de problema*: Detección de objetos en computer vision
 
 ### SAM image segmentation
-![image](/assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
+[![image](/assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
 
