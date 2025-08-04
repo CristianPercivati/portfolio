@@ -1,24 +1,47 @@
-# Portfolio de prácticas
-
+# Practices' Portfolio
+<details>
+  <summary>Apps</summary>
+  
 ## Apps
 
 ### EstudIA
 
-Esta aplicación fue un proyecto que desarrollé durante una práctica en el Instituto. La app es básicamente un **agente** que ayuda al alumno a entender y a progresar sobre ciertos temas académicos. Básicamente, funciona a través de Langchain para la **recuperación de documentos**, que son vectorizados y almacenados en una **base de datos vectorial** (ChromaDB). Luego, se utiliza un **LLM** (la API de GPT) para que asuma esta documentación como contexto para las preguntas del usuario. En base las respuestas que el usuario va dando, el LLM también almacena un seguimiento de los errores y aciertos del mismo, y toma decisiones sobre qué temas profundizar y ajustar sus preguntas en función a los conocimientos del mismo. También permite realizar resúmenes de los textos vistos.
+The app helps students understand and progress in academic subjects. Built on *Langchain*, it handles chained prompts and **document retrieval**, with content stored in a vector database (*ChromaDB*). An LLM (*GPT's API*) then uses this retrieved data as context to deliver more accurate answers and questions.
+
+The app operates in two modes:
+
+- Conversational Mode: A free-form discussion about the subject.
+
+- Evaluation Mode: A QA exam-style format where an **agent** evluates the student’s answers, provides feedback, and determines correctness.
+
+Based on the user’s performance, the system tracks correct and incorrect responses, dynamically adjusting focus to reinforce weaker areas. Additionally, the app can generate summaries of the subject matter.
 
 - [Ver video 👀](https://google.com)
 - [Descargar desde Docker 🐳](https://google.com)
 
 ### Bot-to-Bot app
 
-Esta aplicación es un sencillo ejercicio de prueba donde se utilizan dos modelos de LLM de competencia actual (GPT y Deepseek) para que interactúen entre sí. Se presentan en un formato de sala de chat, donde el usuario hace un prompt inicial y los chatbots van interactuando entre sí. Dependiendo del prompt inicial, los chats durante el intercambio van dejando entrever los sesgos internos que poseen a la hora de dar respuestas, siendo GPT más enfocado en la privacidad y el individuo, mientras que Deepseek se apoya más en la utilidad social y la importancia de lo colectivo. Este prompt inicial está ajustado internamente con un prompt one-shot para mejorar su precisión y dirigir correctamente el desarrollo de la conversación.
+This app is a fun and simple way to explore how two advanced AI chatbots (GPT and Deepseek) think and respond each other, allowing you to see the difference in **biases**.
+
+You start by entering a prompt, and then the two bots take turns chatting with each other. As their conversation goes on, you’ll notice they often take different approaches: GPT usually focuses more on privacy and individual rights, while Deepseek tends to highlight the importance of social good and collective values.
+
+To guide the conversation a bit, the starting prompt includes an example to set the tone. Watching the two bots interact gives you an interesting look at how their training shapes their opinions, and how different kinds of AI can “see” the same topic in very different ways.
 
 - [Ver video 👀](https://youtu.be/z35HhIoJ5gY)
 - [Descargar desde Docker 🐳](https://google.com)
 
 ### Phonetics corrector
 
-Este fue un proyecto personal que tenía como fin explorar las posibilidades de un modelo transcripción de voz de OpenAI que había salido en ese momento, llamado **Whisper**. La idea de la app es buscar diferencias en la pronunciación de las palabras. Para esto, reentrené el modelo con un dataset público de transcipción de audio. El entrenamiento requirió que se convirtieran las etiquetas del dataset a CMU (un diccionario de pronunciación abierto). La app lo que hace es utilizar este modelo reentrenado para realizar una transcripción a CMU, y por el otro utiliza el modelo original para compararlo con la pronunciación real, de esta forma reconoce los fonemas que fueron correcta e incorrectamente pronunciados.
+This was a personal project aimed at exploring the capabilities of OpenAI's Whisper, a speech transcription model released at the time. The app’s goal was to identify pronunciation differences in spoken words (English only).
+
+#### Model Retraining
+Fine-tuned Whisper using a public audio transcription dataset that included open mic recordings and noisy audios.
+Converted dataset labels to CMU (an open pronunciation dictionary) for compatibility.
+
+#### Functionality
+The retrained model transcribes speech into CMU phonetic representations.
+The original Whisper model compares this output to the actual pronunciation.
+The system then identifies correctly and incorrectly pronounced phonemes.
 
 - [Ver video 👀](https://youtu.be/lnRcwrBtzmY)
 - [Descargar desde Docker 🐳](https://google.com)
@@ -28,11 +51,20 @@ Enlace a video: :movie_camera:
 
 ### DQN applied for transport problems
 
-Este fue un trabajo de **Deep Reinforcement Learning**. La aplicación demuestra cómo, con muy pocos datos, se pudo realizar un **entorno simulado** a partir de los datos originales, utilizando técnicas de aumento y expansión de datos e inferencia causal resultado del análisis. El objetivo del trabajo fue demostrar un *estimativo* de cómo la toma de decisiones sobre la flexiblización de las tarifas, permitiría un crecimiento mucho mayor en la curva de pronóstico para el año siguiente. Se utilizó una **DQN** que permite el aprendizaje (por refuerzo) de un **agente** (en este caso, la propia empresa) respecto a las decisiones que tome en las tarifas dependiendo del entorno.
+This project demonstrates how **simulated environments** can be created from limited original data using **data augmentation**, **causal inference**, and expansion techniques. The goal was to model how **dynamic pricing adjustments** could significantly improve growth projections for the following year.
+
+A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an agent (the company itself) to learn optimal pricing strategies based on environmental feedback. The resulting model provided a (synthetic) data driven estimate of how flexible pricing decisions could enhance forecasted growth curves.
+
+#### Technical Approach:
+- Data Simulation: Augmented sparse datasets to build a robust synthetic environment.
+- Causal Analysis: Identified key decision drivers through inference techniques.
+- Agent Training: The DQN agent learned adaptive pricing policies by interacting with the simulated market.
 
 - [Ver video 👀](https://youtu.be/aYyind5eH5w)
 - [Descargar desde Docker 🐳](https://google.com)
-
+</details>
+<details>
+  <summary>Notebooks</summary>
 ## Notebooks
 
 ### Credit card fraud detection
@@ -98,6 +130,9 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 
 *Tipo de problema*: Segmentación de imágense en computer vision
 
+</details>
+<details>
+    <summary>Models</summary>
 ## Modelos y ajuste fino
 <table>
   <tr>
@@ -128,7 +163,9 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
     </td>
   </tr>
 </table>
-
+</details>
+<details>
+    <summary>Dashboards</summary>
 ## Dashboards
 
 ### Reporte sobre el mercado de datos
@@ -148,3 +185,5 @@ Este fue un ejercicio realizado para una capacitación en Quales. La idea era ap
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
 ![PBI - RRHH Exercise](./assets/img/pbi-3.png)
+
+</details>
