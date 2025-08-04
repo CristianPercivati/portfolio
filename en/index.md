@@ -104,7 +104,7 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
 ## Notebooks
 
 ### Credit card fraud detection
-[![image](/assets/img/banner_credit_card.png)](https://www.kaggle.com/code/cristianpercivati/detecci-n-de-fraudes-en-tarjetas-de-cr-dito)
+[![image](../assets/img/banner_credit_card.png)](https://www.kaggle.com/code/cristianpercivati/detecci-n-de-fraudes-en-tarjetas-de-cr-dito)
 
 *Tipo de problema*: Clasificación binaria 
 
@@ -113,7 +113,7 @@ El objetivo es encontrar un modelo que, dada la información brindada, sea capaz
 Pruebo técnicas de **reducción de dimensionalidad**, y de balanceo de datos como resampling o **SMOTE**. Se utiliza una **regresión logística** como modelo viable.
 
 ### IBM attrition analysis
-[![image](/assets/img/banner_ibm_attrition.png)](https://www.kaggle.com/code/cristianpercivati/rotaci-n-de-empleados-de-ibm)
+[![image](../assets/img/banner_ibm_attrition.png)](https://www.kaggle.com/code/cristianpercivati/rotaci-n-de-empleados-de-ibm)
 
 *Tipo de problema*: Clasificación binaria 
 
@@ -124,14 +124,14 @@ Se hizo un EDA de las características, y se seleccionó en función de las corr
 Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los resultados del modelo, en este caso se utilizó **XGBoost** dado que las relaciones son poco lineales.
 
 ### Spaceship Titanic Competition
-[![image](/assets/img/banner_spaceship_titanic.png)](https://www.kaggle.com/code/cristianpercivati/spaceship-titanic-around-80-precision)
+[![image](../assets/img/banner_spaceship_titanic.png)](https://www.kaggle.com/code/cristianpercivati/spaceship-titanic-around-80-precision)
 
 Este fue un trabajo que hice durante la materia de Cs. de Datos en el instituto. Tras un EDA profundo, se logró una buena explicabilidad de la correlación de las variables e **ingeniería de características**. Como modelo, el que mejor resultado dio fue una **red neuronal profunda**, pero para poder explicar los resultados recurrí a un análisis **SHAP**.
 
 *Tipo de problema*: Clasificación binaria 
 
 ### Buenos Aires Properati Price Prediction
-[![image](/assets/img/banner_properati.png)](https://www.kaggle.com/code/cristianpercivati/buenos-aires-properties-price-prediction)
+[![image](../assets/img/banner_properati.png)](https://www.kaggle.com/code/cristianpercivati/buenos-aires-properties-price-prediction)
 
 Este trabajo es uno de mis primeros notebooks, basado en el clásico problema de regresión de los precios de propiedades, pero esta vez utilizando un dataset de Properati para el análisis descriptivo y predictivo
 de precios de inmuebles de la Ciudad de Buenos Aires.
@@ -139,28 +139,28 @@ de precios de inmuebles de la Ciudad de Buenos Aires.
 *Tipo de problema*: Regresión 
 
 ### Twitter dataset NLP analysis
-[![image](/assets/img/banner_twitter_analysis.png)](https://www.kaggle.com/code/cristianpercivati/transformers-on-twitter-dataset)
+[![image](../assets/img/banner_twitter_analysis.png)](https://www.kaggle.com/code/cristianpercivati/transformers-on-twitter-dataset)
 
 *Tipo de problema*: Análisis de sentimientos / Clasificación multiclase
 
 Se utiliza el **transformer BERT** para la clasificación de twits de un dataset de Twitter de la India.
 
 ### Uber NY NLP analysis
-[![image](/assets/img/banner_uber.png)](https://www.kaggle.com/code/cristianpercivati/uber-espa-ol-an-lisis-de-sentimientos)
+[![image](../assets/img/banner_uber.png)](https://www.kaggle.com/code/cristianpercivati/uber-espa-ol-an-lisis-de-sentimientos)
 
 Este fue el análisis exploratorio previo a desarrollar el modelo que genere comentarios simulando ser un pasajero de un viaje. Se hizo un trabajo de preprocesamiento de NLP básico (**lemmatización** y eliminación de **stop words**) y luego se vectorizó el vocabulario con **CountVectorizer**. Esto me permitió realizar una nube de palabras de las palabras más positivas y más negativas realizadas por los pasajeros.
 
 *Tipo de problema*: Análisis de sentimientos / Nube de palabras
 
 ### YOLO object detection
-[![image](/assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
+[![image](../assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de objetos en una imagen.
 
 *Tipo de problema*: Detección de objetos en computer vision
 
 ### SAM image segmentation
-[![image](/assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
+[![image](../assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
 
 En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
 
@@ -168,13 +168,13 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 
 </details>
 <details markdown="block">
-    <summary>Models</summary>
+<summary>Models</summary>
   
 ## Modelos y ajuste fino
 <table>
   <tr>
     <td style="vertical-align: top; width: 100px;">
-      <img src="/assets/img/model_1.png" alt="Whisper Model" width="100"/>
+      <img src="../assets/img/model_1.png" alt="Whisper Model" width="100"/>
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
@@ -183,7 +183,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="/assets/img/model_2.png" alt="Llama Model" width="100"/>
+      <img src="../assets/img/model_2.png" alt="Llama Model" width="100"/>
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
@@ -192,7 +192,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="/assets/img/model_3.png" alt="DQN Model" width="100"/>
+      <img src="../assets/img/model_3.png" alt="DQN Model" width="100"/>
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
@@ -200,9 +200,10 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
     </td>
   </tr>
 </table>
+
 </details>
-<details markdown="block">
-    <summary>Dashboards</summary>
+<details markdown="block">  
+<summary>Dashboards</summary>
   
 ## Dashboards
 
@@ -210,18 +211,18 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 
 Este dashboard fue un proyecto que realicé durante unas prácticas en el Instituto. En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
 
-![PBI - Data Jobs](/assets/img/pbi-1.png)
+![PBI - Data Jobs](../assets/img/pbi-1.png)
 
 ### Ejemplo de Data Warehousing
 
 Este fue un ejercicio realizado para una capacitación en Quales. La idea era aplicar **ETL** con **SQL** para transformar archivos csv sueltos en un **Data Warehouse** listo para ser consumido en PBI.
 
-![PBI - Data Warehousing](/assets/img/pbi-2.png)
+![PBI - Data Warehousing](../assets/img/pbi-2.png)
 
 ### Ejercicio de PBI
 
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
-![PBI - RRHH Exercise](/assets/img/pbi-3.png)
+![PBI - RRHH Exercise](../assets/img/pbi-3.png)
 
 </details>
