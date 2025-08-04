@@ -1,4 +1,21 @@
 # Practices' Portfolio
+
+## Hello there! :wave:
+
+I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
+
+#### Academic Background
+- Associate Degree in Data Science & AI (completed).
+- Currently studying Computer Science Engineering (BSc).
+
+#### Core Technical Skills
+- Languages: Python, SQL, JS
+- Cloud/ML Tools: Azure
+- Frameworks: (PyTorch, TensorFlow, LangChain, HuggingFace, etc)
+
+#### What I Bring
+A blend of theoretical knowledge and practical project experience in AI/ML, with a focus on building scalable solutions.
+
 <details>
   <summary>Apps</summary>
   
@@ -65,6 +82,7 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
 </details>
 <details>
   <summary>Notebooks</summary>
+  
 ## Notebooks
 
 ### Credit card fraud detection
@@ -133,6 +151,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 </details>
 <details>
     <summary>Models</summary>
+  
 ## Modelos y ajuste fino
 <table>
   <tr>
@@ -166,6 +185,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 </details>
 <details>
     <summary>Dashboards</summary>
+  
 ## Dashboards
 
 ### Reporte sobre el mercado de datos
