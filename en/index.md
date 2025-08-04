@@ -1,6 +1,6 @@
-# Hello there! 
+# Hello there!👋 
 
-:wave: I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
+I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
 
 ### Academic Background
 - Associate Degree in Data Science & AI (completed).
@@ -98,7 +98,7 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
 - [Ver video 👀](https://youtu.be/aYyind5eH5w)
 - [Descargar desde Docker 🐳](https://google.com)
 </details>
-<details>
+<details markdown="block">
   <summary>Notebooks</summary>
   
 ## Notebooks
@@ -167,14 +167,14 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 *Tipo de problema*: Segmentación de imágense en computer vision
 
 </details>
-<details>
+<details markdown="block">
     <summary>Models</summary>
   
 ## Modelos y ajuste fino
 <table>
   <tr>
-    <td style="vertical-align: top; width: 150px;">
-      <img src="../assets/img/model_1.png" alt="Whisper Model" width="150"/>
+    <td style="vertical-align: top; width: 100px;">
+      <img src="/assets/img/model_1.png" alt="Whisper Model" width="100"/>
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
@@ -183,7 +183,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="../assets/img/model_2.png" alt="Llama Model" width="150"/>
+      <img src="/assets/img/model_2.png" alt="Llama Model" width="100"/>
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
@@ -192,7 +192,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="../assets/img/model_3.png" alt="DQN Model" />
+      <img src="/assets/img/model_3.png" alt="DQN Model" width="100"/>
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
@@ -201,7 +201,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
 </table>
 </details>
-<details>
+<details markdown="block">
     <summary>Dashboards</summary>
   
 ## Dashboards
@@ -210,18 +210,18 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 
 Este dashboard fue un proyecto que realicé durante unas prácticas en el Instituto. En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
 
-![PBI - Data Jobs](./assets/img/pbi-1.png)
+![PBI - Data Jobs](/assets/img/pbi-1.png)
 
 ### Ejemplo de Data Warehousing
 
 Este fue un ejercicio realizado para una capacitación en Quales. La idea era aplicar **ETL** con **SQL** para transformar archivos csv sueltos en un **Data Warehouse** listo para ser consumido en PBI.
 
-![PBI - Data Warehousing](./assets/img/pbi-2.png)
+![PBI - Data Warehousing](/assets/img/pbi-2.png)
 
 ### Ejercicio de PBI
 
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
-![PBI - RRHH Exercise](./assets/img/pbi-3.png)
+![PBI - RRHH Exercise](/assets/img/pbi-3.png)
 
 </details>
