@@ -1,8 +1,6 @@
-# Practices' Portfolio
+# Hello there! 
 
-## Hello there! :wave:
-
-I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
+:wave: I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
 
 ### Academic Background
 - Associate Degree in Data Science & AI (completed).
@@ -26,6 +24,8 @@ Next you can explore my technical exercises and implementations:
 
 <details>
   <summary>Apps</summary>
+  
+--- 
   
 ## Apps
 
