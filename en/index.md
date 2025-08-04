@@ -22,7 +22,7 @@ A blend of theoretical knowledge and practical project experience in AI/ML, with
 ### Featured Projects  
 Next you can explore my technical exercises and implementations:  
 
-<details>
+<details markdown="block">
   <summary>Apps</summary>
   
 --- 
