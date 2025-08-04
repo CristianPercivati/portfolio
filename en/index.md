@@ -4,17 +4,25 @@
 
 I’m Cristian Percivati, a passionate Computer Science and Artificial Intelligence student pursuing my first role as an **AI Engineer** or **Data Scientist**.
 
-#### Academic Background
+### Academic Background
 - Associate Degree in Data Science & AI (completed).
 - Currently studying Computer Science Engineering (BSc).
 
-#### Core Technical Skills
+### Core Technical Skills
 - Languages: Python, SQL, JS
 - Cloud/ML Tools: Azure
+- Reporting Tools: Power BI
 - Frameworks: (PyTorch, TensorFlow, LangChain, HuggingFace, etc)
 
-#### What I Bring
+### What I Bring  
 A blend of theoretical knowledge and practical project experience in AI/ML, with a focus on building scalable solutions.
+
+### Get In Touch  
+📧 **Email**: [cpercivatif@gmail.com](mailto:cpercivatif@gmail.com)  
+📱 **Phone**: [+54 11 4063-3321](tel:+541140633321)  
+
+### Featured Projects  
+Next you can explore my technical exercises and implementations:  
 
 <details>
   <summary>Apps</summary>
@@ -33,8 +41,18 @@ The app operates in two modes:
 
 Based on the user’s performance, the system tracks correct and incorrect responses, dynamically adjusting focus to reinforce weaker areas. Additionally, the app can generate summaries of the subject matter.
 
-- [Ver video 👀](https://google.com)
-- [Descargar desde Docker 🐳](https://google.com)
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/estudia-app" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://www.youtube.com/watch?v=1NdnyeP0FbM" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
+
 
 ### Bot-to-Bot app
 
@@ -156,7 +174,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 <table>
   <tr>
     <td style="vertical-align: top; width: 150px;">
-      <img src="./assets/img/model_1.png" alt="Whisper Model" width="150"/>
+      <img src="../assets/img/model_1.png" alt="Whisper Model" width="150"/>
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
@@ -165,7 +183,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="./assets/img/model_2.png" alt="Llama Model" width="150"/>
+      <img src="../assets/img/model_2.png" alt="Llama Model" width="150"/>
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
@@ -174,7 +192,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="./assets/img/model_3.png" alt="DQN Model" width="150"/>
+      <img src="../assets/img/model_3.png" alt="DQN Model" />
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
