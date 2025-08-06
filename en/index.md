@@ -106,71 +106,69 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
 ### Credit card fraud detection
 [![image](../assets/img/banner_credit_card.png)](https://www.kaggle.com/code/cristianpercivati/detecci-n-de-fraudes-en-tarjetas-de-cr-dito)
 
-*Tipo de problema*: Clasificación binaria 
+*Problem type*: Binary classification
 
-El objetivo es encontrar un modelo que, dada la información brindada, sea capaz de predecir si una transacción futura será fraudulenta o no. En este análisis lo que hago es el tratamiento de un típico dataset con un problema de **desbalanceo de datos**, donde el **recall** es la métrica más relevante para evaluar la utilidad del modelo que se utilice. 
+The goal is to find a model that, given the provided information, can predict whether a future transaction will be fraudulent or not. In this analysis, I work with a typical dataset with a **data imbalance** problem, where **recall** is the most important metric to evaluate the model's usefulness.
 
-Pruebo técnicas de **reducción de dimensionalidad**, y de balanceo de datos como resampling o **SMOTE**. Se utiliza una **regresión logística** como modelo viable.
+I try **dimensionality reduction** techniques and data balancing like resampling or **SMOTE**. A **logistic regression** model is used as a viable option.
 
 ### IBM attrition analysis
 [![image](../assets/img/banner_ibm_attrition.png)](https://www.kaggle.com/code/cristianpercivati/rotaci-n-de-empleados-de-ibm)
 
-*Tipo de problema*: Clasificación binaria 
+*Problem type*: Binary classification
 
-La idea del trabajo es explicar las causas del attrition y encontrar algún modelo predictivo que permita interceptar futuros casos de attrition (desgaste que provocan el posible renunciamiento de un empleado) para evitar la **rotación excesiva**. En este análisis también se nos presenta un problema de desbalanceo de datos, pero en este caso es menos permisibile los falsos negativos respecto al ejemplo de fraude de tarjetas, por lo cual se necesitaba mantener un balance de estas métricas. 
+The idea of this work is to explain the causes of attrition and find a predictive model that can intercept future cases of attrition (wear that causes a possible resignation of an employee) to avoid **excessive turnover**. In this analysis, we also face a data imbalance problem, but in this case, false negatives are less acceptable compared to the credit card fraud example, so it was important to keep a balance between the metrics.
 
-Se hizo un EDA de las características, y se seleccionó en función de las correlaciones teniendo en cuenta tests de hipótesis como **chi cuadrado** y dándole importancia a la segmentación de los datos, que nos permitió ver mejores correlaciones y elegir las características útiles en función de la variable objetivo.
+An EDA of the features was done, and they were selected based on correlations using hypothesis testing like **chi-square**, giving importance to data segmentation, which helped to find better correlations and choose useful features according to the target variable.
 
-Para mejorar los resultados, se realizó un **SMOTE** que permitió mejorar los resultados del modelo, en este caso se utilizó **XGBoost** dado que las relaciones son poco lineales.
+To improve the results, a **SMOTE** was applied that helped the model perform better. In this case, **XGBoost** was used since the relationships were not very linear.
 
 ### Spaceship Titanic Competition
 [![image](../assets/img/banner_spaceship_titanic.png)](https://www.kaggle.com/code/cristianpercivati/spaceship-titanic-around-80-precision)
 
-Este fue un trabajo que hice durante la materia de Cs. de Datos en el instituto. Tras un EDA profundo, se logró una buena explicabilidad de la correlación de las variables e **ingeniería de características**. Como modelo, el que mejor resultado dio fue una **red neuronal profunda**, pero para poder explicar los resultados recurrí a un análisis **SHAP**.
+This was a project I did during the Data Science course at the institute. After a deep EDA, I was able to explain the correlations between variables and do some **feature engineering**. The best-performing model was a **deep neural network**, but to explain the results I used a **SHAP** analysis.
 
-*Tipo de problema*: Clasificación binaria 
+*Problem type*: Binary classification
 
 ### Buenos Aires Properati Price Prediction
 [![image](../assets/img/banner_properati.png)](https://www.kaggle.com/code/cristianpercivati/buenos-aires-properties-price-prediction)
 
-Este trabajo es uno de mis primeros notebooks, basado en el clásico problema de regresión de los precios de propiedades, pero esta vez utilizando un dataset de Properati para el análisis descriptivo y predictivo
-de precios de inmuebles de la Ciudad de Buenos Aires.
+This project is one of my first notebooks, based on the classic real estate price **regression** problem, but this time using a Properati dataset for descriptive and predictive analysis of property prices in Buenos Aires City.
 
-*Tipo de problema*: Regresión 
+*Problem type*: Regression
 
 ### Twitter dataset NLP analysis
 [![image](../assets/img/banner_twitter_analysis.png)](https://www.kaggle.com/code/cristianpercivati/transformers-on-twitter-dataset)
 
-*Tipo de problema*: Análisis de sentimientos / Clasificación multiclase
+*Problem type*: Sentiment analysis / Multiclass classification
 
-Se utiliza el **transformer BERT** para la clasificación de twits de un dataset de Twitter de la India.
+The **BERT transformer** is used to classify tweets from an Indian Twitter dataset.
 
 ### Uber NY NLP analysis
 [![image](../assets/img/banner_uber.png)](https://www.kaggle.com/code/cristianpercivati/uber-espa-ol-an-lisis-de-sentimientos)
 
-Este fue el análisis exploratorio previo a desarrollar el modelo que genere comentarios simulando ser un pasajero de un viaje. Se hizo un trabajo de preprocesamiento de NLP básico (**lemmatización** y eliminación de **stop words**) y luego se vectorizó el vocabulario con **CountVectorizer**. Esto me permitió realizar una nube de palabras de las palabras más positivas y más negativas realizadas por los pasajeros.
+This was the exploratory analysis before developing a model that generates comments simulating a passenger review. I did basic NLP preprocessing (**lemmatization** and removing **stop words**) and then vectorized the vocabulary using **CountVectorizer**. This allowed me to create a word cloud showing the most positive and most negative words used by passengers.
 
-*Tipo de problema*: Análisis de sentimientos / Nube de palabras
+*Problem type*: Sentiment analysis / Word cloud
 
 ### YOLO object detection
 [![image](../assets/img/banner_yolo.png)](https://www.kaggle.com/code/cristianpercivati/yolo-demo)
 
-En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para la detección de objetos en una imagen.
+In this exercise, I used the **YOLOv8** library to detect objects in an image.
 
-*Tipo de problema*: Detección de objetos en computer vision
+*Problem type*: Object detection in computer vision
 
 ### SAM image segmentation
 [![image](../assets/img/banner_sam.png)](https://www.kaggle.com/code/cristianpercivati/sam-demo)
 
-En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
+In this exercise, I used the **SAM** library for image segmentation.
 
-*Tipo de problema*: Segmentación de imágense en computer vision
+*Problem type*: Image segmentation in computer vision
 
 </details>
 <details markdown="block">
 <summary>Models</summary>
-  
-## Modelos y ajuste fino
+## Models and Fine-Tuning
 <table>
   <tr>
     <td style="vertical-align: top; width: 100px;">
@@ -178,7 +176,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
-      Realicé un <strong>ajuste fino</strong> a la versión base de Whisper de OpenAI. La idea era poder utilizarlo en mi app (compartida más arriba) que permite corregir errores fonéticos en la pronunciación.
+      I did a <strong>fine-tuning</strong> of the base version of Whisper from OpenAI. The idea was to use it in my app (shared above) that helps correct phonetic pronunciation errors.
     </td>
   </tr>
   <tr>
@@ -187,7 +185,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
-      El ajuste fino (realizado con <strong>QLoRA</strong>) se utilizó para adaptar la versión de 3B de Llama 3 para que simule ser un pasajero según un dataset de viajes propio que se le brindó. En función de los datos de los viajes, generó comentarios y calificaciones <strong>sintéticas</strong>.
+      The fine-tuning (done with <strong>QLoRA</strong>) was used to adapt the 3B version of Llama 3 so it could simulate being a passenger based on a custom trip dataset. According to the trip data, it generated <strong>synthetic</strong> comments and ratings.
     </td>
   </tr>
   <tr>
@@ -196,7 +194,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
-      Este modelo fue parte de un trabajo práctico integrador para mi tecnicatura. La idea fue usar una DQN utilizando <strong>Deep Reinforcement Learning</strong> que me permitiera desarrollar un conjunto de <strong>datos sintéticos</strong> predictivos que demuestren el efecto que puede tener la <strong>toma de decisiones simulada</strong> sobre la tarifa del servicio y los beneficios de la dinamización de la misma.
+      This model was part of a final project for my technical degree. The idea was to use a DQN with <strong>Deep Reinforcement Learning</strong> to create a set of predictive <strong>synthetic data</strong> that shows the effect that <strong>simulated decision-making</strong> can have on the service fare and the benefits of making it dynamic.
     </td>
   </tr>
 </table>
@@ -206,22 +204,21 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 <summary>Dashboards</summary>
   
 ## Dashboards
+### Data Market Report
 
-### Reporte sobre el mercado de datos
-
-Este dashboard fue un proyecto que realicé durante unas prácticas en el Instituto. En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
+This dashboard was a project I did during an internship at the Institute. In this report, I analyzed the job offers from ai-jobs.net. Then, using **scraping** techniques, I collected the equivalent offers from LinkedIn Argentina.
 
 ![PBI - Data Jobs](../assets/img/pbi-1.png)
 
-### Ejemplo de Data Warehousing
+### Data Warehousing Example
 
-Este fue un ejercicio realizado para una capacitación en Quales. La idea era aplicar **ETL** con **SQL** para transformar archivos csv sueltos en un **Data Warehouse** listo para ser consumido en PBI.
+This was an exercise I did during a training at Quales. The idea was to apply **ETL** with **SQL** to transform separate CSV files into a **Data Warehouse** ready to be used in Power BI.
 
 ![PBI - Data Warehousing](../assets/img/pbi-2.png)
 
-### Ejercicio de PBI
+### Power BI Exercise
 
-Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
+This is a simple exercise I did a few years ago in a Udemy course.
 
 ![PBI - RRHH Exercise](../assets/img/pbi-3.png)
 
