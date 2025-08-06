@@ -1,24 +1,82 @@
-# Portfolio de prácticas
+# Hola!👋 
 
+Mi nombre es Cristian Percivati, soy un estudiante apasionado de las Ciencias de la Computación e Iteligencia Artificial que está buscando su primer rol como **Ingeniero de IA** o **Científico de Datos** (u otras posiciones).
+
+### Background Académico
+- Técnico Superior en Ciencia de Datos e Inteligencia Artificial (completado)
+- Actualmente estudiando Ingeniería Informática en la UBA
+
+### Habilidades Técnicas Centrales
+- Lenguajes: Python, SQL, JS
+- Cloud/ML Tools: Azure
+- Herramientas de Reporting: Power BI
+- Frameworks: (PyTorch, TensorFlow, LangChain, HuggingFace, etc)
+
+### ¿Qué ofrezco?
+Una mezcla de conocimiento teórico y práctico en proyectos de IA/ML con un enfoque en construir soluciones escalables.
+
+### ¿Cómo contactarme?  
+📧 **Email**: [cpercivatif@gmail.com](mailto:cpercivatif@gmail.com)  
+📱 **Phone**: [+54 11 4063-3321](tel:+541140633321)  
+
+### Proyectos Destacados
+A continuación se puede explorar mis ejercicios técnicos e implementaciones en distintas áreas de datos:
+
+<details markdown="block">
+  <summary>Apps</summary>
+  
+--- 
+  
 ## Apps
 
 ### EstudIA
 
-Esta aplicación fue un proyecto que desarrollé durante una práctica en el Instituto. La app es básicamente un **agente** que ayuda al alumno a entender y a progresar sobre ciertos temas académicos. Básicamente, funciona a través de Langchain para la **recuperación de documentos**, que son vectorizados y almacenados en una **base de datos vectorial** (ChromaDB). Luego, se utiliza un **LLM** (la API de GPT) para que asuma esta documentación como contexto para las preguntas del usuario. En base las respuestas que el usuario va dando, el LLM también almacena un seguimiento de los errores y aciertos del mismo, y toma decisiones sobre qué temas profundizar y ajustar sus preguntas en función a los conocimientos del mismo. También permite realizar resúmenes de los textos vistos.
+Esta aplicación ayuda a los estudiantes a entender y progresar en temas académicos. Construida sobre *Langchain*, maneja chains de prompts en base a **recuperación de documentos**, con el contenido almacenado en una base de datos vectorial (*ChromaDB*). Un LLM (*API de GPT*) se encarga de usar esta información recuperada como contexto para presentar respuestas y preguntas más precisas.
 
-- [Ver video 👀](https://google.com)
-- [Descargar desde Docker 🐳](https://google.com)
+La aplicación opera en dos modos:
+
+- Modo conversacional: una forma libre de discusión acerca de la materia.
+
+- Modo evaluación: Un ping-pong de preguntas y respuestas en formato de examen donde un **agente** evalúa la respuesta del usuario, provee feedback y determina el nivel de correcto de la misma.
+
+Basado en la performance del usuario, el sistem trackea las respuestas correctas e incorrectas, ajustando dinámicamente su enfoque en reforzar las áreas débiles del mismo. Adicionalmente, la aplicación puede generar resúmenes de la materia en cuestión.
+
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/estudia-app" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://www.youtube.com/watch?v=1NdnyeP0FbM" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://docker.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
+
 
 ### Bot-to-Bot app
 
-Esta aplicación es un sencillo ejercicio de prueba donde se utilizan dos modelos de LLM de competencia actual (GPT y Deepseek) para que interactúen entre sí. Se presentan en un formato de sala de chat, donde el usuario hace un prompt inicial y los chatbots van interactuando entre sí. Dependiendo del prompt inicial, los chats durante el intercambio van dejando entrever los sesgos internos que poseen a la hora de dar respuestas, siendo GPT más enfocado en la privacidad y el individuo, mientras que Deepseek se apoya más en la utilidad social y la importancia de lo colectivo. Este prompt inicial está ajustado internamente con un prompt one-shot para mejorar su precisión y dirigir correctamente el desarrollo de la conversación.
+Esta aplicación fue una forma fácil y entretenida de explorar cómo dos modelos avanzados de chatbots de IA (GPT y Deepseek) piensan y se responden el uno al otro, permitiendo ver las diferencias en los **sesgos** de cada uno.
+
+Se comienza lanzando un prompt inicial, entonces ambos chatbots toman turnos para chatear el uno con el otro. A medida que la conversación avanza, y dependiendo del prompt, se podrá observar que cada uno toma enfoques diferentes: GPT normalmente se enfoca más en la privacidad y los derechos individuales, mientras que Deepseek tiende a resaltar la importancia del bienestar social y los valores colectivos.
+
+Para guiar la conversación, el prompt inicial incluye un ejemplo para establecer un tenor de conversación. Ver a ambos bots interactuar nos da una mirada interesante en cómo sus entrenamientos moldearon sus opiniones, y cómo diferentes tipos de IA pueden ver el mismo tema en formas muy diferentes.
 
 - [Ver video 👀](https://youtu.be/z35HhIoJ5gY)
 - [Descargar desde Docker 🐳](https://google.com)
 
-### Phonetics corrector
+### Corrector de fonética
 
-Este fue un proyecto personal que tenía como fin explorar las posibilidades de un modelo transcripción de voz de OpenAI que había salido en ese momento, llamado **Whisper**. La idea de la app es buscar diferencias en la pronunciación de las palabras. Para esto, reentrené el modelo con un dataset público de transcipción de audio. El entrenamiento requirió que se convirtieran las etiquetas del dataset a CMU (un diccionario de pronunciación abierto). La app lo que hace es utilizar este modelo reentrenado para realizar una transcripción a CMU, y por el otro utiliza el modelo original para compararlo con la pronunciación real, de esta forma reconoce los fonemas que fueron correcta e incorrectamente pronunciados.
+Este fue un proyecto personal que apuntaba a explorar las capacidades de Whisper de OpenAI, un modelo de transcripción del habla que lanzó hace un par de años. El objetivo de la app era identificar las diferencias de pronunciación (solo en inglés).
+
+#### Reentrenamiento del modelo
+
+El **ajuste fino** de Whisper (reentrenamiento a partir de los pesos pre-entrenados en su versión *base*) se realizó usando un dataset de audio público que incluía grabaciones a micrófono abierto y audios ruidosos. Las etiquetas de este dataset (transcripciones) se convirtieron a CMU (un diccionario de fonemas de pronunciación abierto), y estas etiquetas convertidas se brindaron al modelo como variable de salida para el entrenamiento.
+
+#### Functionality
+El modelo reentrenado transcribe el audio en representacaiones fonéticas en CMU.
+El modelo original de Whisper compara esta salida con la pronunciación real.
+El sistema identifica correcta e incorrectamente los fonemas mal pronunciados.
 
 - [Ver video 👀](https://youtu.be/lnRcwrBtzmY)
 - [Descargar desde Docker 🐳](https://google.com)
@@ -26,12 +84,25 @@ Este fue un proyecto personal que tenía como fin explorar las posibilidades de 
 
 Enlace a video: :movie_camera:
 
-### DQN applied for transport problems
+### DQN aplicada a problemas de transporte de pasajeros
 
-Este fue un trabajo de **Deep Reinforcement Learning**. La aplicación demuestra cómo, con muy pocos datos, se pudo realizar un **entorno simulado** a partir de los datos originales, utilizando técnicas de aumento y expansión de datos e inferencia causal resultado del análisis. El objetivo del trabajo fue demostrar un *estimativo* de cómo la toma de decisiones sobre la flexiblización de las tarifas, permitiría un crecimiento mucho mayor en la curva de pronóstico para el año siguiente. Se utilizó una **DQN** que permite el aprendizaje (por refuerzo) de un **agente** (en este caso, la propia empresa) respecto a las decisiones que tome en las tarifas dependiendo del entorno.
+Este proyecto demuestra cómo los **entornos simulados** pueden ser creados a partir de datos limitados usando **aumento de datos**, **inferencia casual**, y técnicas de expansión. El objetivo era modelar cómo el **ajuste de precios dinámicos** de las tarifas podría significativamente mejorar las proyecciones de crecimiento al año siguiente.
 
+Una Deep Q-Network (DQN) fue entrenada a través de **aprendizaje por refuerzo**, permitiendo que un agente (representando a la compañía tomando decisiones) aprendiera estrategias de ajuste de precios óptimos de la tarifa basado en el feedback del entorno. El modelo resultante brindó la posibilidad evaluar cómo la cultura de datos puede brindar estimaciones data-driven en cómo decisiones como flexibilizar de forma correcta las tarifas podría mejorar la curva de crecimiento de ingresos.
+
+#### Enfoque Técnico:
+- Simulación de Datos: El aumento de datos en datasets escasos permitieron construir un entorno de datos sintéticos robusto.
+- Análisis Causal: Se identificaron tomas de decisiones claves a través de técnicas de inferencia de otros datasets relacionados.
+- Entrenamiento del Agente: la DQN del agente aprendió adaptativamente a tomar decisiones sobre los precios interactuando con el mercado simulado (entorno).
+  
 - [Ver video 👀](https://youtu.be/aYyind5eH5w)
 - [Descargar desde Docker 🐳](https://google.com)
+
+</details>
+<details markdown="block">
+  <summary>Notebooks</summary>
+
+--- 
 
 ## Notebooks
 
@@ -97,7 +168,10 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **YOLOv8** para l
 En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la segmentación de imágenes.
 
 *Tipo de problema*: Segmentación de imágense en computer vision
-
+</details>
+<details markdown="block">
+<summary>Models</summary>
+  
 ## Modelos y ajuste fino
 <table>
   <tr>
@@ -129,6 +203,12 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
 </table>
 
+</details>
+<details markdown="block">  
+<summary>Dashboards</summary>
+
+--- 
+
 ## Dashboards
 
 ### Reporte sobre el mercado de datos
@@ -148,3 +228,5 @@ Este fue un ejercicio realizado para una capacitación en Quales. La idea era ap
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
 ![PBI - RRHH Exercise](./assets/img/pbi-3.png)
+
+</details>
