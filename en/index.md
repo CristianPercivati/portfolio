@@ -126,6 +126,8 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
   
 ## Notebooks
 
+--- 
+
 ### Credit card fraud detection
 [![image](../assets/img/banner_credit_card.png)](https://www.kaggle.com/code/cristianpercivati/detecci-n-de-fraudes-en-tarjetas-de-cr-dito)
 
@@ -194,6 +196,8 @@ In this exercise, I used the **SAM** library for image segmentation.
   
 ## Models and Fine-Tuning
 
+--- 
+
 <table>
   <tr>
     <td style="vertical-align: top; width: 100px;">
@@ -227,8 +231,11 @@ In this exercise, I used the **SAM** library for image segmentation.
 </details>
 <details markdown="block">  
 <summary>Dashboards</summary>
-  
+
+---
+
 ## Dashboards
+
 ### Data Market Report
 
 This dashboard was a project I did during an internship at the Institute. In this report, I analyzed the job offers from ai-jobs.net. Then, using **scraping** techniques, I collected the equivalent offers from LinkedIn Argentina.
