@@ -82,7 +82,8 @@ Este fue un proyecto personal que apuntaba a explorar las capacidades de Whisper
 
 El **ajuste fino** de Whisper (reentrenamiento a partir de los pesos pre-entrenados en su versión *base*) se realizó usando un dataset de audio público que incluía grabaciones a micrófono abierto y audios ruidosos. Las etiquetas de este dataset (transcripciones) se convirtieron a CMU (un diccionario de fonemas de pronunciación abierto), y estas etiquetas convertidas se brindaron al modelo como variable de salida para el entrenamiento.
 
-#### Functionality
+#### Functionamiento
+
 El modelo reentrenado transcribe el audio en representacaiones fonéticas en CMU.
 El modelo original de Whisper compara esta salida con la pronunciación real.
 El sistema identifica correcta e incorrectamente los fonemas mal pronunciados.
