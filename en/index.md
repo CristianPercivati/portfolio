@@ -48,11 +48,10 @@ Based on the user’s performance, the system tracks correct and incorrect respo
   <a href="https://www.youtube.com/watch?v=1NdnyeP0FbM" target="_blank">
     <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
   </a>  
-  <a href="https://docker.com/" target="_blank">
+  <a href="https://hub.docker.com/repository/docker/cpercivati/estudia-app/" target="_blank">
     <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
   </a>  
 </div>
-
 
 ### Bot-to-Bot app
 
@@ -62,8 +61,17 @@ You start by entering a prompt, and then the two bots take turns chatting with e
 
 To guide the conversation a bit, the starting prompt includes an example to set the tone. Watching the two bots interact gives you an interesting look at how their training shapes their opinions, and how different kinds of AI can “see” the same topic in very different ways.
 
-- [Ver video 👀](https://youtu.be/z35HhIoJ5gY)
-- [Descargar desde Docker 🐳](https://google.com)
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/bot2bot" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/z35HhIoJ5gY" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://hub.docker.com/repository/docker/cpercivati/bot2bot-app" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
 
 ### Phonetics corrector
 
@@ -78,9 +86,17 @@ The retrained model transcribes speech into CMU phonetic representations.
 The original Whisper model compares this output to the actual pronunciation.
 The system then identifies correctly and incorrectly pronounced phonemes.
 
-- [Ver video 👀](https://youtu.be/lnRcwrBtzmY)
-- [Descargar desde Docker 🐳](https://google.com)
-
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/whispercmu" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/lnRcwrBtzmY" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://hub.docker.com/repository/docker/cpercivati/phonetics-whisper/" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
 
 Enlace a video: :movie_camera:
 
@@ -95,8 +111,15 @@ A Deep Q-Network (DQN) was trained via **reinforcement learning**, enabling an a
 - Causal Analysis: Identified key decision drivers through inference techniques.
 - Agent Training: The DQN agent learned adaptive pricing policies by interacting with the simulated market.
 
-- [Ver video 👀](https://youtu.be/aYyind5eH5w)
-- [Descargar desde Docker 🐳](https://google.com)
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/TpIntegradorFinal-App" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/aYyind5eH5w" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+</div>
+
 </details>
 <details markdown="block">
   <summary>Notebooks</summary>
@@ -168,11 +191,13 @@ In this exercise, I used the **SAM** library for image segmentation.
 </details>
 <details markdown="block">
 <summary>Models</summary>
+  
 ## Models and Fine-Tuning
+
 <table>
   <tr>
     <td style="vertical-align: top; width: 100px;">
-      <img src="../assets/img/model_1.png" alt="Whisper Model" width="100"/>
+      <a href="https://huggingface.co/cpercivati/whisper-cmu-base"><img src="../assets/img/model_1.png" alt="Whisper Model" width="150"/></a>
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
@@ -181,7 +206,7 @@ In this exercise, I used the **SAM** library for image segmentation.
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="../assets/img/model_2.png" alt="Llama Model" width="100"/>
+      <a href="https://huggingface.co/cpercivati/llama3b-finetuned-comentarios-uber"><img src="../assets/img/model_2.png" alt="Llama Model" width="150"/></a>
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
@@ -190,7 +215,7 @@ In this exercise, I used the **SAM** library for image segmentation.
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="../assets/img/model_3.png" alt="DQN Model" width="100"/>
+      <a href="https://github.com/CristianPercivati/TpIntegradorFinal-App/tree/main/models"><img src="../assets/img/model_3.png" alt="DQN Model" width="150"/></a>
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
