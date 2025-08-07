@@ -8,7 +8,7 @@ Mi nombre es Cristian Percivati, soy un estudiante apasionado de las Ciencias de
 
 ### Habilidades Técnicas Centrales
 - Lenguajes: Python, SQL, JS
-- Cloud/ML Tools: Azure
+- Cloud & Deployment: Azure, Docker, Github
 - Herramientas de Reporting: Power BI
 - Frameworks: (PyTorch, TensorFlow, LangChain, HuggingFace, etc)
 
@@ -176,7 +176,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 <table>
   <tr>
     <td style="vertical-align: top; width: 150px;">
-      <img src="./assets/img/model_1.png" alt="Whisper Model" width="150"/>
+      <a href="https://huggingface.co/cpercivati/whisper-cmu-base"><img src="./assets/img/model_1.png" alt="Whisper Model" width="150"/></a>
     </td>
     <td>
       <h3>Whisper fine-tuned for CMU</h3>
@@ -185,7 +185,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="./assets/img/model_2.png" alt="Llama Model" width="150"/>
+      <a href="https://huggingface.co/cpercivati/llama3b-finetuned-comentarios-uber"><img src="./assets/img/model_2.png" alt="Llama Model" width="150"/></a>
     </td>
     <td>
       <h3>Llama 3B fine-tuned for Uber dataset</h3>
@@ -194,7 +194,7 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
   </tr>
   <tr>
     <td style="vertical-align: top;">
-      <img src="./assets/img/model_3.png" alt="DQN Model" width="150"/>
+      <a href="https://github.com/CristianPercivati/TpIntegradorFinal-App/tree/main/models"><img src="./assets/img/model_3.png" alt="DQN Model" width="150"/></a>
     </td>
     <td>
       <h3>Deep Reinforcement Learning DQN for transport problems</h3>
@@ -215,18 +215,18 @@ En este ejercicio, lo que se hizo fue utilizar la librería de **SAM** para la s
 
 Este dashboard fue un proyecto que realicé durante unas prácticas en el Instituto. En este reporte lo que hice fue analizar la oferta laboral de ai-jobs.net. Luego, usando técnicas de **scrapping**, obtuve las ofertas equivalentes en Linkedin Argentina.
 
-![PBI - Data Jobs](./assets/img/pbi-1.png)
+[![PBI - Data Jobs](./assets/img/pbi-1.png)](https://github.com/CristianPercivati/pbi-data-jobs)
 
 ### Ejemplo de Data Warehousing
 
 Este fue un ejercicio realizado para una capacitación en Quales. La idea era aplicar **ETL** con **SQL** para transformar archivos csv sueltos en un **Data Warehouse** listo para ser consumido en PBI.
 
-![PBI - Data Warehousing](./assets/img/pbi-2.png)
+[![PBI - Data Warehousing](./assets/img/pbi-2.png)](https://github.com/CristianPercivati/pbi-quales-tp)
 
 ### Ejercicio de PBI
 
 Este es un simple ejercicio que realicé hace algunos años en un curso de Udemy.
 
-![PBI - RRHH Exercise](./assets/img/pbi-3.png)
+[![PBI - RRHH Exercise](./assets/img/pbi-3.png)](https://github.com/CristianPercivati/pbi-exercise-skudon)
 
 </details>
