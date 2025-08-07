@@ -48,7 +48,7 @@ Basado en la performance del usuario, el sistem trackea las respuestas correctas
   <a href="https://www.youtube.com/watch?v=1NdnyeP0FbM" target="_blank">
     <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
   </a>  
-  <a href="https://docker.com/" target="_blank">
+  <a href="https://hub.docker.com/repository/docker/cpercivati/estudia-app/" target="_blank">
     <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
   </a>  
 </div>
@@ -62,8 +62,17 @@ Se comienza lanzando un prompt inicial, entonces ambos chatbots toman turnos par
 
 Para guiar la conversación, el prompt inicial incluye un ejemplo para establecer un tenor de conversación. Ver a ambos bots interactuar nos da una mirada interesante en cómo sus entrenamientos moldearon sus opiniones, y cómo diferentes tipos de IA pueden ver el mismo tema en formas muy diferentes.
 
-- [Ver video 👀](https://youtu.be/z35HhIoJ5gY)
-- [Descargar desde Docker 🐳](https://google.com)
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/bot2bot" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/z35HhIoJ5gY" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://hub.docker.com/repository/docker/cpercivati/bot2bot-app" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
 
 ### Corrector de fonética
 
@@ -78,11 +87,17 @@ El modelo reentrenado transcribe el audio en representacaiones fonéticas en CMU
 El modelo original de Whisper compara esta salida con la pronunciación real.
 El sistema identifica correcta e incorrectamente los fonemas mal pronunciados.
 
-- [Ver video 👀](https://youtu.be/lnRcwrBtzmY)
-- [Descargar desde Docker 🐳](https://google.com)
-
-
-Enlace a video: :movie_camera:
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/whispercmu" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/lnRcwrBtzmY" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+  <a href="https://hub.docker.com/repository/docker/cpercivati/phonetics-whisper/" target="_blank">
+    <img src="https://img.shields.io/badge/Download-🐳_Docker-2496ED?style=for-the-badge&logo=docker" alt="Docker">
+  </a>  
+</div>
 
 ### DQN aplicada a problemas de transporte de pasajeros
 
@@ -94,9 +109,15 @@ Una Deep Q-Network (DQN) fue entrenada a través de **aprendizaje por refuerzo**
 - Simulación de Datos: El aumento de datos en datasets escasos permitieron construir un entorno de datos sintéticos robusto.
 - Análisis Causal: Se identificaron tomas de decisiones claves a través de técnicas de inferencia de otros datasets relacionados.
 - Entrenamiento del Agente: la DQN del agente aprendió adaptativamente a tomar decisiones sobre los precios interactuando con el mercado simulado (entorno).
-  
-- [Ver video 👀](https://youtu.be/aYyind5eH5w)
-- [Descargar desde Docker 🐳](https://google.com)
+
+<div align="center">  
+  <a href="https://github.com/CristianPercivati/TpIntegradorFinal-App" target="_blank">
+    <img src="https://img.shields.io/badge/View_Code-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>  
+  <a href="https://youtu.be/aYyind5eH5w" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Demo-YouTube-FF0000?style=for-the-badge&logo=youtube" alt="YouTube">
+  </a>  
+</div>
 
 </details>
 <details markdown="block">
